@@ -1,0 +1,32 @@
+File: small.txt
+Size: 102400 bytes
+
+Serial Time (ms): 1.8515
+
+Threads   Parallel Time (ms)   Speedup
+2         2.0805               0.8899
+4         2.8750               0.6440
+8         2.9512               0.6274
+--------------------------------------
+
+File: medium.txt
+Size: 5242880 bytes
+
+Serial Time (ms): 95.3888
+
+Threads   Parallel Time (ms)   Speedup
+2         67.5838              1.4114
+4         41.2632              2.3117
+8         28.2638              3.3749
+--------------------------------------
+
+File: large.txt
+Size: 20971520 bytes
+
+Serial Time (ms): 265.978
+
+Threads   Parallel Time (ms)   Speedup
+2         109.799              2.4224
+4         63.3426              4.1990
+8         64.7821              4.1057
+--------------------------------------
